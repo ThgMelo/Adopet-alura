@@ -4,21 +4,47 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/global.css">
+        <link rel="stylesheet" href="./assets/css/home-page-styles.css">
+        <link rel="stylesheet" href="./assets/css/components/botoes.css">
         <title>Adopet | Alura</title>
     </head>
     <body>
-        <header>
+        <header class="adp-header">
+            <nav class="adp-header__nav">
 
+                <a href="#" class="adp-header__nav-item">
+                    <img src="./assets/img/header/Casa.svg" alt="">
+                </a>
+                <a href="#" class="adp-header__nav-item">
+                    <img src="./assets/img/header/Mensagens.svg" alt="Mensagem">
+                </a>
+            </nav>
+
+            <div class="adp-header__perfil">
+                <a href="#" class="adp-header__perfil-item">
+                    <img src="./assets/img/header/Usuário.png" alt="Usuário">
+                </a>
+            </div>
         </header>
 
-        <main>
-
+        <main >
+            <div class="adp-main">
+                <img src="./assets/img/tela_inicial/Logo.svg" alt="Logo Adopet" class="adp-main__logo">
+                <h1>Boas-vindas!</h1>
+                <p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
+            
+                <div class="adp-main__container-botoes">
+                    <a href="#" class="adp-botoes">Já tenho conta</a>
+                    <a href="#" class="adp-botoes">Quero me Cadastrar</a>
+                </div>
+            </div>
+            <img src="./assets/img/tela_inicial/Ilustracao.png" alt="Ilustração cachorro e gato" class="adp-main__ilustracao">
         </main>
 
-        <footer>
-
+        <footer class="adp-footer">
+            <p>2022 - Desenvolvido por Thiago Melo.</p>
         </footer>
     </body>
 </html>

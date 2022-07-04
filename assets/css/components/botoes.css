@@ -1,0 +1,24 @@
+.adp-botoes{
+    text-align: center;
+
+    background-color: var(--Coral);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+
+    width: 180px;
+    height: 40px;
+
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+
+    margin-top: 1rem;
+    padding-top: .7rem;
+}
+
+.adp-botoes:hover{
+    background-color: #FF9D9E;
+}
+
+.adp-botoes:first-child{
+    margin-top: 0;
+}
