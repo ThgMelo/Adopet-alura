@@ -1,0 +1,15 @@
+.adp-footer{
+    height: 104px;
+    width: 100vw;
+    background-color: var(--Verde);
+
+    position: absolute;
+    z-index: 1;
+
+    text-align: center;
+    color: white;
+}
+
+.adp-footer p{
+    padding: 39px 0;
+}

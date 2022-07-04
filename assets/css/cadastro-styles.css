@@ -1,0 +1,6 @@
+body{
+    background: url(../img/Patas.svg), url(../img/splash/topo.svg);
+
+    background-repeat: no-repeat;
+    background-position: top 0 right, top 0 left;
+}

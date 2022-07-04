@@ -6,25 +6,6 @@ body{
     background-repeat: no-repeat;
 }
 
-.adp-header{
-    height: 100px;
-    width: 80%;
-    margin: 20px auto auto auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.adp-header__nav-item{
-    width: 19.2px;
-    margin-right: 50px;
-}
-
-.adp-header__perfil-item{
-    width: 40px;
-    display: none;
-}
-
 main{
     background-image: url(../img/splash/meio.svg);
     background-position: top 5rem right;
@@ -32,11 +13,14 @@ main{
 }
 
 .adp-main{
-    width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.adp-main p{
+    width: 70%;
 }
 
 .adp-main__logo{
@@ -66,23 +50,8 @@ main{
 }
 
 .adp-main__ilustracao{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: -2rem;
-}
-
-.adp-footer{
-    height: 104px;
-    width: 100vw;
-    background-color: var(--Verde);
-
-    position: absolute;
-    z-index: 1;
-
-    text-align: center;
-    color: white;
-}
-
-.adp-footer p{
-    padding: 39px 0;
+    max-width: 250px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: -1.5rem;
 }
