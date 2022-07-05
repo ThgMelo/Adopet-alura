@@ -10,7 +10,7 @@ main{
     background-repeat: no-repeat;
     background-position: top 7.5rem left;
 
-    min-height: 70vh;
+    min-height: 550px;
 }
 
 .login-main__logo{
