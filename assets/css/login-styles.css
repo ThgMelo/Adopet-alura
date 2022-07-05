@@ -1,0 +1,34 @@
+body{
+    background: url(../img/Patas.svg), url(../img/splash/topo.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 right, top 0 left;
+    
+}
+
+main{
+    background: url(../img/splash/meio-2.svg);
+    background-repeat: no-repeat;
+    background-position: top 7.5rem left;
+
+    min-height: 70vh;
+}
+
+.login-main__logo{
+    display: block;
+    text-align: center;
+
+    height: 2.1475rem;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-main p{
+    text-align: center;
+    color: var(--Azul);
+
+    margin: 0 auto auto 1rem;
+    width: 90%;
+}

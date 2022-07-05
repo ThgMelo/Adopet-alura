@@ -48,3 +48,9 @@
     right: 0;
     cursor: pointer;
 }
+
+.form-senha{
+    text-decoration: underline;
+    font-size: .8rem;
+    color: var(--Coral);
+}
