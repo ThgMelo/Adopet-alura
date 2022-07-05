@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../assets/css/components/footer.css">
         <link rel="stylesheet" href="../assets/css/components/header.css">
         <link rel="stylesheet" href="../assets/css/components/botoes.css">
+        <link rel="stylesheet" href="../assets/css/components/formulario.css">
         <title>Adopet | Cadastro</title>
     </head>
     <body>
@@ -31,12 +32,38 @@
             </div>
         </header>
 
-        <main>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <main class="cad-main">
+            <img src="../assets/img/tela_cadastro/Logo_-_azul.svg" alt="Logo adopet" class="cad-main__logo">
+            <p>Ainda não tem cadastro?</p>
+            <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+
+            <form class="form">
+                <label for="email">Email</label>
+                <input type="email" class="form-input" id="email" placeholder="Escolha seu melhor email" required>
+
+                <label for="nome">Nome</label>
+                <input type="text" class="form-input" id="nome" placeholder="Digite seu nome completo" required>
+
+                <label for="senha">Senha</label>
+                <div class="form-password">
+                    <input type="password" class="form-input" id="senha" placeholder="Crie uma senha" required>
+                    <img src="../assets/img/icon/eye-off.svg" alt="Ocultar/Exibir Senha" id="eye-senha" onclick="visualizadorSenha('#senha', '#eye-senha')">
+                </div>
+                
+                <label for="conf-senha">Confirmar Senha</label>
+                <div class="form-password">
+                    <input type="password" class="form-input" id="conf-senha" placeholder="Repita a senha criada acima" required>
+                    <img src="../assets/img/icon/eye-off.svg" alt="Ocultar/Exibir Senha" id="eye-conf-senha" onclick="visualizadorSenha('#conf-senha', '#eye-conf-senha')">
+                </div>
+                <p class="senhas-diferentes">*As senhas não conferem</p>
+
+                <input type="submit" value="Cadastrar" class="adp-botoes form-botao">
+            </form>
         </main>
 
         <footer class="adp-footer">
             <p>2022 - Desenvolvido por Thiago Melo.</p>
         </footer>
+        <script src="../assets/script/password.js"></script>
     </body>
 </html>
