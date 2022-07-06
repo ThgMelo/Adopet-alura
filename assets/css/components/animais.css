@@ -1,0 +1,69 @@
+.home-animais{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-animal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100vw;
+
+    margin-top: 1rem;
+
+    background-color: var(--Cinza-Fundos);
+}
+
+.home-animal:first{
+    margin-top: 0;
+}
+
+
+.home-animal__img{
+    height: 148px;
+    margin-right: .5rem;
+}
+
+.home-animal__info{
+    margin-left: .5rem;
+}
+
+.home-animal__info h4{
+    color: var(--Azul);
+    margin-bottom: .5rem;
+}
+
+.home-animal__info-geral{
+    color: var(--Cinza);
+}
+
+.home-animal__info-responsavel{
+    margin-top: 2rem;
+}
+
+.home-animal__info-responsavel p{
+    color: var(--Cinza);
+    font-size: .75rem;
+}
+
+.home-animal__info-responsavel a{
+    color: var(--Cinza);
+    font-size: .625rem;
+    position: relative;
+    margin-left: 22px;
+}
+
+
+.home-animal__info-responsavel a::before{
+    content: url("../../img/icon/ícone_mensagem.svg");
+    width: 18px;
+    margin-right: 18px;
+
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
