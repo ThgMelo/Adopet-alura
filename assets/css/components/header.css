@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.adp-header__nav-logo{
+    margin-right: 50px;
+    display: none;
+}
+
 .adp-header__nav-item{
     width: 19.2px;
     margin-right: 50px;
@@ -15,4 +20,19 @@
 .adp-header__perfil-item{
     width: 40px;
     display: none;
+}
+
+
+.adp-header__nav{
+    display: flex;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-size: 560.97px 470px;
+    }
+
+    .adp-header__nav-logo{
+        display: inline-block;
+    }
 }

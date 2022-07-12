@@ -18,3 +18,21 @@ body{
     margin-bottom: 2rem;
     width: 60%;
 }
+
+.pularlinha{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-size: 560.97px 470px;
+    }
+
+    .home-main p{
+        margin-top: 150px;
+    }
+
+    .pularlinha{
+        display: block;
+    }
+}

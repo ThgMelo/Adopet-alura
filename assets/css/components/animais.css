@@ -67,3 +67,27 @@
     left: -20px;
 }
 
+@media screen and (min-width: 768px){
+    .home-animais{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .home-animal{
+        max-width: 45%;
+        margin-bottom: .5rem;
+        padding:.8rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .home-animal{
+        max-width: 30%;
+        margin-bottom: .5rem;
+        padding:.8rem;
+    }
+}

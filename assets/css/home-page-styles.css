@@ -55,3 +55,13 @@ main{
     margin: 0px auto;
     margin-bottom: -1.5rem;
 }
+
+@media screen and (min-width: 768px){
+   main{
+        background-size: 134.45px 664px;
+   }
+
+   .adp-main__logo{
+        margin-top: 10rem;
+    }
+}
