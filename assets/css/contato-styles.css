@@ -1,0 +1,26 @@
+body{
+    background: url(../img/splash/topo.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 left;
+}
+
+.adp-header__perfil-item{
+    display: block;
+}
+
+main{
+    background: url(../img/splash/meio-2.svg);
+    background-repeat: no-repeat;
+    background-position: top 7.5rem left;
+}
+
+.contato-main p{
+    text-align: center;
+    color: var(--Azul);
+
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: .5rem;
+    width: 60%;
+}
