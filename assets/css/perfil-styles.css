@@ -1,0 +1,9 @@
+.foto-perfil{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#editar-foto-perfil{
+    text-align: center;
+    margin-top: .5rem;
+}
