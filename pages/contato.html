@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../assets/css/contato-styles.css">
         <link rel="stylesheet" href="../assets/css/components/botoes.css">
         <link rel="stylesheet" href="../assets/css/components/formulario.css">
+        <link rel="stylesheet" href="../assets/css/components/form-contato.css">
         <link rel="icon" type="image.svg" href="../assets/img/icon/Logo.svg">
         <title>Adopet | Contato</title>
     </head>
@@ -36,6 +37,24 @@
         </header>
         <main class="contato-main">
             <p>Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+            <form class="form form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-input" id="nome" placeholder="Insira seu nome completo" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" class="form-input" id="telefone" placeholder="Insira seu telefone e/ou whatsapp" required>
+
+                <label for="nome-animal">Nome do animal</label>
+                <input type="text" class="form-input" id="nome-animal" placeholder="Por qual animal você se interessou?" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-input" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+
+                <input type="submit" value="Enviar" class="adp-botoes form-botao">
+            </form>
         </main>
+        <footer class="adp-footer">
+            <p>2022 - Desenvolvido por Thiago Melo.</p>
+        </footer>
     </body>
 </html>

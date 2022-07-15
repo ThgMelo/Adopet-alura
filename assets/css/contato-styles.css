@@ -8,12 +8,6 @@ body{
     display: block;
 }
 
-main{
-    background: url(../img/splash/meio-2.svg);
-    background-repeat: no-repeat;
-    background-position: top 7.5rem left;
-}
-
 .contato-main p{
     text-align: center;
     color: var(--Azul);

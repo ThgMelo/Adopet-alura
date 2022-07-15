@@ -1,0 +1,22 @@
+.form-contato{
+    background-color: var(--Cinza-Fundos);
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 312px;
+}
+
+.form-input{
+    background-color: white;
+    text-align: left;
+}
+
+label{
+    color: var(--Azul);
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+label:first-child{
+    margin-top: 2rem;
+}
